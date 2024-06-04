@@ -75,9 +75,11 @@ const Homi = () => {
               <Link to="/blogs" className="text-gray-700 hover:text-yellow-600">
                 Blogs
               </Link>
+              <Link to="/contact">
               <button className="bg-yellow-600 text-white px-4 py-2 mb-3">
                 Enquire Now
               </button>
+              </Link>
             </nav>
            
           </div>

@@ -93,9 +93,11 @@ const Blog = () => {
             <Link to="/blogs" className="text-gray-700 hover:text-yellow-600">
               Blogs
             </Link>
-            <button className="bg-yellow-600 text-white px-4 py-2 mb-3">
-              Enquire Now
-            </button>
+            <Link to="/contact">
+              <button className="bg-yellow-600 text-white px-4 py-2 mb-3">
+                Enquire Now
+              </button>
+            </Link>
           </nav>
         </div>
       </header>
