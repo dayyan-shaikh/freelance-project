@@ -78,7 +78,7 @@ const Contact = () => {
             UAE Office
           </h2>
           <div className="mt-4">
-            <div className="flex items-start mb-4">
+            <div className="flex items-start mb-4 py-5">
               <img
                 src="https://placehold.co/24x24"
                 alt="location"
@@ -90,7 +90,8 @@ const Contact = () => {
                   Al Fahad Plaza, <br />
                   Office No. 52, <br />
                   6th Floor Al Rigga, <br />
-                  Deira<br />
+                  Deira
+                  <br />
                   Dubai, UAE
                 </p>
               </div>
@@ -124,7 +125,7 @@ const Contact = () => {
           <h2 className="text-4xl font-bold text-center md:text-left text-yellow-600">
             India Office
           </h2>
-          <div className="mt-4">
+          <div className="mt-4 py-5">
             <div className="flex items-start mb-4">
               <img
                 src="https://placehold.co/24x24"
@@ -132,10 +133,14 @@ const Contact = () => {
                 className="mr-4"
               />
               <div>
-                <h3 className="font-bold">Corporate Office</h3>
-                <p>Devidayal Compound,<br /> 
-                Reay Road East,<br />
-                 Mumbai 400010</p>
+                <h3 className="font-bold text-2xl">Corporate Office</h3>
+                <p className="text-xl">
+                  Devidayal Compound,
+                  <br />
+                  Reay Road East,
+                  <br />
+                  Mumbai 400010
+                </p>
               </div>
             </div>
             <div className="flex items-start mb-4">
@@ -145,9 +150,9 @@ const Contact = () => {
                 className="mr-4"
               />
               <div>
-                <h3 className="font-bold">Phone</h3>
-                <p>+91 82914 08981</p>
-                <p>+91 7820932970</p>
+                <h3 className="font-bold text-2xl">Phone</h3>
+                <p className="text-xl">+91 82914 08981</p>
+                <p className="text-xl">+91 7820932970</p>
               </div>
             </div>
             <div className="flex items-start">
@@ -157,8 +162,8 @@ const Contact = () => {
                 className="mr-4"
               />
               <div>
-                <h3 className="font-bold">Email</h3>
-                <p>info@brightstarconstructions.com</p>
+                <h3 className="font-bold text-2xl">Email</h3>
+                <p className="text-xl">info@brightstarconstructions.com</p>
               </div>
             </div>
           </div>
@@ -205,13 +210,105 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full py-2 text-yellow-600 bg-white"
+              className="w-full py-2 text-yellow-600 bg-white mt-5"
             >
               Submit
             </button>
           </form>
         </div>
       </div>
+
+      <footer className="bg-gray-900 text-gray-200 py-20">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
+            <div className="ml-40">
+              <img
+                src="https://najmbarea.com/wp-content/uploads/2023/08/Najm-Barea-Logo-size-1-vertical.png"
+                className="mb-4 w-60"
+              />
+            </div>
+            <div className="flex flex-row mr-80">
+              <div className="mb-8 md:mb-0 md:mr-16 gap-10">
+                <h3 className="text-lg font-semibold text-yellow-500 mb-2">
+                  Dubai Office
+                </h3>
+                <p className="mb-2">
+                  <span className="inline-block mr-2">📍</span>
+                  Al Fahad Plaza, Office No. 52, <br /> 6th Floor Al Rigga,{" "}
+                  <br />
+                  Deira Dubai, UAE
+                </p>
+                <p className="mb-2">
+                  <span className="inline-block mr-2">📞</span>
+                  +971 58 5080056 <br /> +971 4 3261855
+                </p>
+                <p>
+                  <span className="inline-block mr-2">✉️</span>
+                  info@najmbarea.com
+                </p>
+                <div className="flex mt-4 space-x-4">
+                  <a href="#" aria-label="Instagram">
+                    <img src="https://placehold.co/24x24" alt="Instagram" />
+                  </a>
+                  <a href="#" aria-label="Facebook">
+                    <img src="https://placehold.co/24x24" alt="Facebook" />
+                  </a>
+                  <a href="#" aria-label="LinkedIn">
+                    <img src="https://placehold.co/24x24" alt="LinkedIn" />
+                  </a>
+                  <a href="#" aria-label="Twitter">
+                    <img src="https://placehold.co/24x24" alt="Twitter" />
+                  </a>
+                </div>
+              </div>
+              <div className="ml-20">
+                <h3 className="text-lg font-semibold text-yellow-500 mb-2">
+                  India Office
+                </h3>
+                <p className="mb-2">
+                  <span className="inline-block mr-2">📍</span>
+                  Devidayal Compound, <br />
+                  Reay Road East, <br />
+                  Mumbai 4000010
+                </p>
+                <p className="mb-2">
+                  <span className="inline-block mr-2">📞</span>
+                  +91 82914 08981 <br /> +91 7820932970
+                </p>
+                <p>
+                  <span className="inline-block mr-2">✉️</span>
+                  info@brightstarconstructions.com
+                </p>
+                <p>
+                  <span className="inline-block mr-2">🔗</span>
+                  www.brightstarconstructions.com
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="border-t border-gray-700 mt-8 pt-4">
+            <div className="flex flex-col md:flex-row justify-between items-center">
+              <div className="flex space-x-4 ml-10">
+                <a href="#" className="hover:underline">
+                  Security Guard Services
+                </a>
+                <a href="#" className="hover:underline">
+                  Technical Services
+                </a>
+                <a href="#" className="hover:underline">
+                  Business Setup and Visa Services
+                </a>
+                <a href="#" className="hover:underline">
+                  Career
+                </a>
+              </div>
+              <p className="text-sm mr-16">
+                &copy; Copyright 2023 Najm Barea Group. All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 };
