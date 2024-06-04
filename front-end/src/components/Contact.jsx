@@ -210,7 +210,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full py-2 text-yellow-600 bg-white mt-5"
+              className="ml-28   w-40 py-2 text-yellow-600 bg-white mt-5"
             >
               Submit
             </button>
@@ -227,7 +227,7 @@ const Contact = () => {
                 className="mb-4 w-60"
               />
             </div>
-            <div className="flex flex-row mr-80">
+            <div className="flex flex-row mr-56">
               <div className="mb-8 md:mb-0 md:mr-16 gap-10">
                 <h3 className="text-lg font-semibold text-yellow-500 mb-2">
                   Dubai Office
