@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const services = [
   {
@@ -76,12 +77,11 @@ const Homi = () => {
                 Blogs
               </Link>
               <Link to="/contact">
-              <button className="bg-yellow-600 text-white px-4 py-2 mb-3">
-                Enquire Now
-              </button>
+                <button className="bg-yellow-600 text-white px-4 py-2 mb-3">
+                  Enquire Now
+                </button>
               </Link>
             </nav>
-           
           </div>
         </header>
 
@@ -123,19 +123,11 @@ const Homi = () => {
             </button>
           </div>
           <div className="absolute right-0 bottom-0 flex flex-col p-4 space-y-2">
-            <button className="bg-green-500 text-white p-2 rounded-full">
-              <img
-                aria-hidden="true"
-                alt="whatsapp"
-                src="https://placehold.co/24x24"
-              />
+            <button className="bg-green-400 text-white p-2 rounded-full w-16 h-16">
+              <i class="fa-solid fa-phone fa-2xl"></i>
             </button>
-            <button className="bg-blue-500 text-white p-2 rounded-full">
-              <img
-                aria-hidden="true"
-                alt="chat"
-                src="https://placehold.co/24x24"
-              />
+            <button className="bg-green-500 text-white p-2 rounded-full w-16 h-16">
+              <i className="fa-brands fa-whatsapp fa-2xl"></i>
             </button>
           </div>
         </div>
@@ -168,85 +160,121 @@ const Homi = () => {
       </section>
 
       <div className="bg-gray-100 py-8">
-      <h2 className="text-center text-2xl md:text-3xl font-semibold text-yellow-600 mb-8">
-        Prestigious Clients We Serve
-      </h2>
-      <div className="flex flex-wrap justify-center items-center space-x-24">
-        <img
-          src="https://najmbarea.com/wp-content/uploads/2023/12/APCC-150x150.png"
-          alt="APCC"
-          className="w-40 h-40"
-        />
-        <img
-          src="https://najmbarea.com/wp-content/uploads/2023/12/AB-Marina-Logo-min.png-150x150.png"
-          alt="Marina Fitness"
-          className="h-30 h-28"
-        />
-        <img
-          src="https://najmbarea.com/wp-content/uploads/2023/12/azizi-150x150.png"
-          alt="Azizi"
-          className="w-40 h-40"
-        />
-        <img
-          src="https://najmbarea.com/wp-content/uploads/2023/12/LANITEM-150x150.png"
-          alt="Latinem Securities"
-          className="w-40 h-40"
-        />
-        <img
-          src="https://najmbarea.com/wp-content/uploads/2023/12/lootah_logo-1-150x150.png"
-          alt="Lootah"
-          className="w-36 h-36"
-        />
-      </div>
-    </div>
-
-    <div className="container mx-auto px-4 py-8">
-      <div className="flex flex-row">
-        <div className="w-4/12 ml-56">
-          <h2 className="text-4xl font-bold text-yellow-600 mb-2">ABOUT NAJM BAREA</h2>
-          <h3 className="text-xl font-semibold text-black mb-4">BEST SECURITY GUARD AGENCY</h3>
-          <p className="text-gray-700 mb-4">
-            Principally in Human Capital Outsourcing, NAJM BAREA Group has played a meaningful role in providing gainful employment to the local community and expatriates alike for 20 years. NAJM BAREA is the best certified security guard company which provide best security services to your construction properties, commercial and residential properties.
-          </p>
-          <p className="text-gray-700 mb-4">
-            At our best security guard agency, we strive for excellence in all aspects of our services, offering tailored solutions that address your unique requirements. We take pride in adapting and capitalising on emerging prospects in the ever-evolving business landscape.
-          </p>
-          <p className="text-gray-700">
-            We offer <a href="#" className="text-blue-600 underline">best security guard services</a>, specializing in <a href="#" className="text-blue-600 underline">private security guard services in the UAE</a>.
-          </p>
-        </div>
-        <div className="w-4/12 h-full mt-16 md:ml-8">
-          <img src="https://najmbarea.com/wp-content/uploads/2023/07/abt-23.jpg" alt="Team" className="shadow-lg" />
+        <h2 className="text-center text-2xl md:text-3xl font-semibold text-yellow-600 mb-8">
+          Prestigious Clients We Serve
+        </h2>
+        <div className="flex flex-wrap justify-center items-center space-x-24">
+          <img
+            src="https://najmbarea.com/wp-content/uploads/2023/12/APCC-150x150.png"
+            alt="APCC"
+            className="w-40 h-40"
+          />
+          <img
+            src="https://najmbarea.com/wp-content/uploads/2023/12/AB-Marina-Logo-min.png-150x150.png"
+            alt="Marina Fitness"
+            className="h-30 h-28"
+          />
+          <img
+            src="https://najmbarea.com/wp-content/uploads/2023/12/azizi-150x150.png"
+            alt="Azizi"
+            className="w-40 h-40"
+          />
+          <img
+            src="https://najmbarea.com/wp-content/uploads/2023/12/LANITEM-150x150.png"
+            alt="Latinem Securities"
+            className="w-40 h-40"
+          />
+          <img
+            src="https://najmbarea.com/wp-content/uploads/2023/12/lootah_logo-1-150x150.png"
+            alt="Lootah"
+            className="w-36 h-36"
+          />
         </div>
       </div>
-    </div>
 
-
-    <div className=" py-12">
-      <div className="text-center mb-8">
-        <h2 className="text-3xl font-semibold text-yellow-600">Our Testimonials</h2>
-      </div>
-      <div className="flex justify-center items-center">
-        <div className="bg-white dark:bg-gray-700 shadow-lg p-8 mx-4 max-w-4xl flex justify-between items-center">
-          <div className="text-center">
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Thanks to Najm Barea's Business Set Up services, our company smoothly established its presence in the UAE. Highly recommended!
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex flex-row">
+          <div className="w-4/12 ml-56">
+            <h2 className="text-4xl font-bold text-yellow-600 mb-2">
+              ABOUT NAJM BAREA
+            </h2>
+            <h3 className="text-xl font-semibold text-black mb-4">
+              BEST SECURITY GUARD AGENCY
+            </h3>
+            <p className="text-gray-700 mb-4">
+              Principally in Human Capital Outsourcing, NAJM BAREA Group has
+              played a meaningful role in providing gainful employment to the
+              local community and expatriates alike for 20 years. NAJM BAREA is
+              the best certified security guard company which provide best
+              security services to your construction properties, commercial and
+              residential properties.
             </p>
-            <p className="font-semibold text-gray-800 dark:text-gray-200">Sarah</p>
-            <p className="text-gray-500 dark:text-gray-400">Business Owner</p>
-          </div>
-          <div className="text-center">
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Najm Barea’s manpower solutions for the construction industry were outstanding. Their skilled workforce helped us complete projects on time.
+            <p className="text-gray-700 mb-4">
+              At our best security guard agency, we strive for excellence in all
+              aspects of our services, offering tailored solutions that address
+              your unique requirements. We take pride in adapting and
+              capitalising on emerging prospects in the ever-evolving business
+              landscape.
             </p>
-            <p className="font-semibold text-gray-800 dark:text-gray-200">David</p>
-            <p className="text-gray-500 dark:text-gray-400">Senior Developer</p>
+            <p className="text-gray-700">
+              We offer{" "}
+              <a href="#" className="text-blue-600 underline">
+                best security guard services
+              </a>
+              , specializing in{" "}
+              <a href="#" className="text-blue-600 underline">
+                private security guard services in the UAE
+              </a>
+              .
+            </p>
+          </div>
+          <div className="w-4/12 h-full mt-16 md:ml-8">
+            <img
+              src="https://najmbarea.com/wp-content/uploads/2023/07/abt-23.jpg"
+              alt="Team"
+              className="shadow-lg"
+            />
           </div>
         </div>
       </div>
-    </div>
 
-    <footer className="bg-gray-900 text-gray-200 py-20">
+      <div className=" py-12">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-semibold text-yellow-600">
+            Our Testimonials
+          </h2>
+        </div>
+        <div className="flex justify-center items-center">
+          <div className="bg-white dark:bg-gray-700 shadow-lg p-8 mx-4 max-w-4xl flex justify-between items-center">
+            <div className="text-center">
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                Thanks to Najm Barea's Business Set Up services, our company
+                smoothly established its presence in the UAE. Highly
+                recommended!
+              </p>
+              <p className="font-semibold text-gray-800 dark:text-gray-200">
+                Sarah
+              </p>
+              <p className="text-gray-500 dark:text-gray-400">Business Owner</p>
+            </div>
+            <div className="text-center">
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                Najm Barea’s manpower solutions for the construction industry
+                were outstanding. Their skilled workforce helped us complete
+                projects on time.
+              </p>
+              <p className="font-semibold text-gray-800 dark:text-gray-200">
+                David
+              </p>
+              <p className="text-gray-500 dark:text-gray-400">
+                Senior Developer
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer className="bg-gray-900 text-gray-200 py-20">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
             <div className="ml-40">
