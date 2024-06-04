@@ -56,7 +56,7 @@ const Homi = () => {
               <img
                 className="w-28 ml-20"
                 src="https://najmbarea.com/wp-content/uploads/2023/08/Najm-Barea-Logo-size-1.png"
-                alt="Najm Barea Logo"
+                alt="Najm Barea Logo hover:cursor-pointer"
               />
             </div>
             <nav className="flex space-x-12 mr-20 text-xl mt-5">
@@ -228,7 +228,7 @@ const Homi = () => {
         <div className="bg-white dark:bg-gray-700 shadow-lg p-8 mx-4 max-w-4xl flex justify-between items-center">
           <div className="text-center">
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Thanks to Najm Barea’s Business Set Up services, our company smoothly established its presence in the UAE. Highly recommended!
+              Thanks to Najm Barea's Business Set Up services, our company smoothly established its presence in the UAE. Highly recommended!
             </p>
             <p className="font-semibold text-gray-800 dark:text-gray-200">Sarah</p>
             <p className="text-gray-500 dark:text-gray-400">Business Owner</p>

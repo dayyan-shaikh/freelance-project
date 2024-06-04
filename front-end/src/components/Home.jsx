@@ -31,19 +31,22 @@ const Home = () => {
           <div className="container mx-auto flex justify-between items-center p-2">
             <div className="flex items-center space-x-4">
               <img
-                className="w-28 ml-20"
+                className="w-28 ml-20 hover:cursor-pointer"
                 src="https://najmbarea.com/wp-content/uploads/2023/08/Najm-Barea-Logo-size-1.png"
                 alt="Najm Barea Logo"
               />
             </div>
-            <nav className="flex space-x-12 mr-10 text-xl mt-5 ">
+            <nav className="flex space-x-12 mr-20 text-xl mt-5">
               <Link to="/" className="text-gray-700 hover:text-yellow-600">
                 Home
               </Link>
               <Link to="/about" className="text-gray-700 hover:text-yellow-600">
                 About
               </Link>
-              <Link to="/services" className="text-gray-700 hover:text-yellow-600">
+              <Link
+                to="/services"
+                className="text-gray-700 hover:text-yellow-600"
+              >
                 Services
               </Link>
               <Link to="/blogs" className="text-gray-700 hover:text-yellow-600">
@@ -53,6 +56,7 @@ const Home = () => {
                 Enquire Now
               </button>
             </nav>
+           
           </div>
         </header>
 
