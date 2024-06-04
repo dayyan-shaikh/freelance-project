@@ -78,12 +78,8 @@ const Contact = () => {
             UAE Office
           </h2>
           <div className="mt-4">
-            <div className="flex items-start mb-4 py-5">
-              <img
-                src="https://placehold.co/24x24"
-                alt="location"
-                className="mr-4"
-              />
+            <div className="flex items-start mb-4 py-5 gap-5">
+              <i className="fa-solid fa-location-dot fa-2xl mt-5"></i>
               <div>
                 <h3 className="font-bold text-2xl">Corporate Office</h3>
                 <p className="text-xl">
@@ -96,24 +92,16 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-start mb-4">
-              <img
-                src="https://placehold.co/24x24"
-                alt="phone"
-                className="mr-4"
-              />
+            <div className="flex items-start mb-4 gap-5">
+              <i class="fa-solid fa-phone fa-2xl mt-5"></i>
               <div>
                 <h3 className="font-bold text-2xl">Phone</h3>
                 <p className="text-xl">+971 4 3261855</p>
                 <p className="text-xl">+971 58 5080056</p>
               </div>
             </div>
-            <div className="flex items-start">
-              <img
-                src="https://placehold.co/24x24"
-                alt="email"
-                className="mr-4"
-              />
+            <div className="flex items-start gap-5">
+              <i class="fa-solid fa-envelope fa-2xl mt-5"></i>
               <div>
                 <h3 className="font-bold text-2xl">Email</h3>
                 <p className="text-xl">info@najmbarea.com</p>
@@ -126,12 +114,8 @@ const Contact = () => {
             India Office
           </h2>
           <div className="mt-4 py-5">
-            <div className="flex items-start mb-4">
-              <img
-                src="https://placehold.co/24x24"
-                alt="location"
-                className="mr-4"
-              />
+            <div className="flex items-start mb-4 gap-5">
+              <i className="fa-solid fa-location-dot fa-2xl mt-5"></i>
               <div>
                 <h3 className="font-bold text-2xl">Corporate Office</h3>
                 <p className="text-xl">
@@ -143,24 +127,16 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-start mb-4">
-              <img
-                src="https://placehold.co/24x24"
-                alt="phone"
-                className="mr-4"
-              />
+            <div className="flex items-start mb-4 gap-5">
+              <i class="fa-solid fa-phone fa-2xl mt-5"></i>
               <div>
                 <h3 className="font-bold text-2xl">Phone</h3>
                 <p className="text-xl">+91 82914 08981</p>
                 <p className="text-xl">+91 7820932970</p>
               </div>
             </div>
-            <div className="flex items-start">
-              <img
-                src="https://placehold.co/24x24"
-                alt="email"
-                className="mr-4"
-              />
+            <div className="flex items-start gap-5">
+              <i class="fa-solid fa-envelope fa-2xl mt-5"></i>
               <div>
                 <h3 className="font-bold text-2xl">Email</h3>
                 <p className="text-xl">info@brightstarconstructions.com</p>
@@ -175,7 +151,7 @@ const Contact = () => {
           <p className="mt-4 text-center">
             Our Team would be happy to help you. We will get back to you soon.
           </p>
-          <form className="mt-8 space-y-4">
+          <form className="mt-8 space-y-4 ml-5 mr-5">
             <div className="flex flex-col">
               <label htmlFor="name">Full Name*</label>
               <input
@@ -210,7 +186,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="ml-28   w-40 py-2 text-yellow-600 bg-white mt-5"
+              className="ml-24   w-40 py-2 text-yellow-600 bg-white mt-5"
             >
               Submit
             </button>
@@ -233,31 +209,43 @@ const Contact = () => {
                   Dubai Office
                 </h3>
                 <p className="mb-2">
-                  <span className="inline-block mr-2">📍</span>
+                  <span className="inline-block mr-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </span>
                   Al Fahad Plaza, Office No. 52, <br /> 6th Floor Al Rigga,{" "}
                   <br />
                   Deira Dubai, UAE
                 </p>
                 <p className="mb-2">
-                  <span className="inline-block mr-2">📞</span>
+                  <span className="inline-block mr-2">
+                    <i class="fa-solid fa-phone"></i>
+                  </span>
                   +971 58 5080056 <br /> +971 4 3261855
                 </p>
                 <p>
-                  <span className="inline-block mr-2">✉️</span>
+                  <span className="inline-block mr-2">
+                    <i class="fa-solid fa-envelope"></i>
+                  </span>
                   info@najmbarea.com
                 </p>
                 <div className="flex mt-4 space-x-4">
-                  <a href="#" aria-label="Instagram">
-                    <img src="https://placehold.co/24x24" alt="Instagram" />
+                  <a href="https://www.instagram.com/" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
                   </a>
-                  <a href="#" aria-label="Facebook">
-                    <img src="https://placehold.co/24x24" alt="Facebook" />
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100006539163202"
+                    aria-label="Facebook"
+                  >
+                    <i class="fa-brands fa-square-facebook fa-2xl"></i>
                   </a>
-                  <a href="#" aria-label="LinkedIn">
-                    <img src="https://placehold.co/24x24" alt="LinkedIn" />
+                  <a
+                    href="https://www.linkedin.com/in/dayyan-shaikh/"
+                    aria-label="LinkedIn"
+                  >
+                    <i class="fa-brands fa-linkedin fa-2xl"></i>
                   </a>
-                  <a href="#" aria-label="Twitter">
-                    <img src="https://placehold.co/24x24" alt="Twitter" />
+                  <a href="https://x.com/home?lang=en" aria-label="Twitter">
+                    <i class="fa-brands fa-x-twitter fa-2xl"></i>
                   </a>
                 </div>
               </div>
@@ -266,21 +254,29 @@ const Contact = () => {
                   India Office
                 </h3>
                 <p className="mb-2">
-                  <span className="inline-block mr-2">📍</span>
+                  <span className="inline-block mr-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </span>
                   Devidayal Compound, <br />
                   Reay Road East, <br />
                   Mumbai 4000010
                 </p>
                 <p className="mb-2">
-                  <span className="inline-block mr-2">📞</span>
+                  <span className="inline-block mr-2">
+                    <i class="fa-solid fa-phone"></i>
+                  </span>
                   +91 82914 08981 <br /> +91 7820932970
                 </p>
                 <p>
-                  <span className="inline-block mr-2">✉️</span>
+                  <span className="inline-block mr-2">
+                    <i class="fa-solid fa-envelope"></i>
+                  </span>
                   info@brightstarconstructions.com
                 </p>
                 <p>
-                  <span className="inline-block mr-2">🔗</span>
+                  <span className="inline-block mr-2">
+                    <i class="fa-solid fa-link"></i>
+                  </span>
                   www.brightstarconstructions.com
                 </p>
               </div>
