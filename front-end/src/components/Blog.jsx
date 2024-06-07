@@ -53,7 +53,7 @@ const Blog = () => {
           <span>📞 +971 58 5080056</span>
           <span>✉️ info@najmbarea.com</span>
         </div>
-        <div className="mr-28 border-white text-white">
+        <div className="mr-28 border-white text-white md:mr-10">
           <button className="flex justify-between items-center bg-black text-white border border-white px-4 py-2">
             SELECT LANGUAGE
             <svg
@@ -68,39 +68,40 @@ const Blog = () => {
         </div>
       </div>
 
-      <header className="bg-white  shadow-2xl">
-        <div className="container mx-auto flex justify-between items-center p-2">
-          <div className="flex items-center space-x-4">
-            <img
-              className="w-28 ml-20"
-              src="https://najmbarea.com/wp-content/uploads/2023/08/Najm-Barea-Logo-size-1.png"
-              alt="Najm Barea Logo hover:cursor-pointer"
-            />
+      <header className="bg-white  shadow-2xl ">
+          <div className="container mx-auto flex justify-between items-center p-2">
+            <div className="flex items-center space-x-4">
+              <img
+                className="w-28 ml-20 md:ml-2 md:w-20"
+                src="https://najmbarea.com/wp-content/uploads/2023/08/Najm-Barea-Logo-size-1.png"
+                alt="Najm Barea Logo hover:cursor-pointer"
+              />
+            </div>
+            <nav className="flex space-x-12 mr-20 text-xl mt-5 md:text-sm md:mr-5">
+              <Link to="/" className="text-gray-700 hover:text-yellow-600">
+                Home
+              </Link>
+              <Link to="/about" className="text-gray-700 hover:text-yellow-600">
+                About
+              </Link>
+              <Link
+                to="/services"
+                className="text-gray-700 hover:text-yellow-600"
+              >
+                Services
+              </Link>
+              <Link to="/blogs" className="text-gray-700 hover:text-yellow-600">
+                Blogs
+              </Link>
+              <Link to="/contact">
+                <button className="bg-yellow-600 text-white px-4 py-2 mb-3">
+                  Enquire Now
+                </button>
+              </Link>
+            </nav>
           </div>
-          <nav className="flex space-x-12 mr-20 text-xl mt-5">
-            <Link to="/" className="text-gray-700 hover:text-yellow-600">
-              Home
-            </Link>
-            <Link to="/about" className="text-gray-700 hover:text-yellow-600">
-              About
-            </Link>
-            <Link
-              to="/services"
-              className="text-gray-700 hover:text-yellow-600"
-            >
-              Services
-            </Link>
-            <Link to="/blogs" className="text-gray-700 hover:text-yellow-600">
-              Blogs
-            </Link>
-            <Link to="/contact">
-              <button className="bg-yellow-600 text-white px-4 py-2 mb-3">
-                Enquire Now
-              </button>
-            </Link>
-          </nav>
-        </div>
-      </header>
+        </header>
+
 
       <div className="relative">
         <img
@@ -117,7 +118,7 @@ const Blog = () => {
       </div>
 
       <div className="container mx-auto py-8 px-4">
-        <div className="grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-8/12 ml-60">
+        <div className="grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-8/12 ml-60 md:w-11/12 md:ml-10">
           {articles.map((article, index) => (
             <div key={index} className="bg-white shadow-md overflow-hidden">
               <img

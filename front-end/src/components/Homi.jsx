@@ -35,7 +35,7 @@ const Homi = () => {
             <span>📞 +971 58 5080056</span>
             <span>✉️ info@najmbarea.com</span>
           </div>
-          <div className="mr-28 border-white text-white md:mr-10">
+          <div className="mr-28 border-white text-white">
             <button className="flex justify-between items-center bg-black text-white border border-white px-4 py-2">
               SELECT LANGUAGE
               <svg
@@ -50,17 +50,17 @@ const Homi = () => {
           </div>
         </div>
 
-        {/* Header */}
+        {/* Header */}  
         <header className="bg-white  shadow-2xl ">
           <div className="container mx-auto flex justify-between items-center p-2">
             <div className="flex items-center space-x-4">
               <img
-                className="w-28 ml-20 md:ml-2 md:w-20"
+                className="w-28 ml-20"
                 src="https://najmbarea.com/wp-content/uploads/2023/08/Najm-Barea-Logo-size-1.png"
                 alt="Najm Barea Logo hover:cursor-pointer"
               />
             </div>
-            <nav className="flex space-x-12 mr-20 text-xl mt-5 md:text-sm md:mr-5">
+            <nav className="flex space-x-12 mr-20 text-xl mt-5">
               <Link to="/" className="text-gray-700 hover:text-yellow-600">
                 Home
               </Link>
@@ -139,7 +139,7 @@ const Homi = () => {
             Our Services
           </h2>
         </div>
-        <div className="flex flex-row gap-6 items-center w-8/12 ml-60 md:flex-col md:w-72">
+        <div className="flex flex-row gap-6 items-center w-8/12 ml-60">
           {services.map((service, index) => (
             <div
               key={index}
@@ -193,15 +193,15 @@ const Homi = () => {
       </div>
 
       <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-row md:w-full">
-          <div className="w-4/12 ml-56 md:ml-10 md:h-60 md:w-full">
-            <h2 className="text-4xl font-bold text-yellow-600 mb-2 md:text-2xl">
+        <div className="flex flex-row gap-10">
+          <div className="w-4/12 ml-56">
+            <h2 className="text-4xl font-bold text-yellow-600 mb-2 ">
               ABOUT NAJM BAREA
             </h2>
-            <h3 className="text-xl font-semibold text-black mb-4 md:text-sm">
+            <h3 className="text-xl font-semibold text-black mb-4 ">
               BEST SECURITY GUARD AGENCY
             </h3>
-            <p className="text-gray-700 mb-4 md:text-sm">
+            <p className="text-gray-700 mb-4 ">
               Principally in Human Capital Outsourcing, NAJM BAREA Group has
               played a meaningful role in providing gainful employment to the
               local community and expatriates alike for 20 years. NAJM BAREA is
@@ -209,14 +209,14 @@ const Homi = () => {
               security services to your construction properties, commercial and
               residential properties.
             </p>
-            <p className="text-gray-700 mb-4 md:text-sm">
+            <p className="text-gray-700 mb-4">
               At our best security guard agency, we strive for excellence in all
               aspects of our services, offering tailored solutions that address
               your unique requirements. We take pride in adapting and
               capitalising on emerging prospects in the ever-evolving business
               landscape.
             </p>
-            <p className="text-gray-700 md:text-sm">
+            <p className="text-gray-700">
               We offer{" "}
               <a href="#" className="text-blue-600 underline">
                 best security guard services
@@ -228,13 +228,13 @@ const Homi = () => {
               .
             </p>
           </div>
-          <div className="w-4/12 h-full mt-16 md:ml-10 md:h-96 md:w-full">
+          <div className="w-4/12 h-full mt-16">
             <img
               src="https://najmbarea.com/wp-content/uploads/2023/07/abt-23.jpg"
               alt="Team"
-              className="shadow-lg md:h-full md:w-80"
+              className="shadow-lg"
             />
-          </div>
+          </div> 
         </div>
       </div>
 

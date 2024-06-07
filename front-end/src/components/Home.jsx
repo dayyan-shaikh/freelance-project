@@ -11,7 +11,7 @@ const Home = () => {
             <span>📞 +971 58 5080056</span>
             <span>✉️ info@najmbarea.com</span>
           </div>
-          <div className="mr-28 border-white text-white md:mr-10">
+          <div className="mr-28 border-white text-white">
             <button className="flex justify-between items-center bg-black text-white border border-white px-4 py-2">
               SELECT LANGUAGE
               <svg
@@ -27,7 +27,7 @@ const Home = () => {
         </div>
 
         {/* Header */}
-        <header className="bg-white  shadow-2xl ">
+        <header className="bg-white  shadow-2xl sticky top-0 z-20">
           <div className="container mx-auto flex justify-between items-center p-2">
             <div className="flex items-center space-x-4">
               <img
