@@ -218,25 +218,7 @@ const Homi = () => {
           </div>
         </div>
       </div>
-      <div className="bg-black text-white flex justify-between items-center p-2 text-sm">
-        <div className="flex items-center space-x-4 ml-20">
-          <span>📞 +971 58 5080056</span>
-          <span>✉️ info@najmbarea.com</span>
-        </div>
-        <div className="mr-28 border-white text-white">
-          <button className="flex justify-between items-center bg-black text-white border border-white px-4 py-2">
-            SELECT LANGUAGE
-            <svg
-              className="-mr-1 h-5 w-5 text-gray-400"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
-            >
-              <path />
-            </svg>
-          </button>
-        </div>
-      </div>
+      
     </>
   );
 };
