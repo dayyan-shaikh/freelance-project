@@ -7,10 +7,12 @@ import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from './components/Footer'
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <BrowserRouter>
+    <Navbar />
       <Routes>
         <Route path="/" element={<Homi />} />
         <Route path="/about" element={<About />} />
@@ -18,7 +20,7 @@ const App = () => {
         <Route path="/blogs" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 };

@@ -5,62 +5,6 @@ const Home = () => {
   return (
     <>
       <div className="font-title">
-        {/* Top Bar */}
-        <div className="bg-black text-white flex justify-between items-center p-2 text-sm">
-          <div className="flex items-center space-x-4 ml-20 ">
-            <span>📞 +971 58 5080056</span>
-            <span>✉️ info@najmbarea.com</span>
-          </div>
-          <div className="mr-28 border-white text-white">
-            <button className="flex justify-between items-center bg-black text-white border border-white px-4 py-2">
-              SELECT LANGUAGE
-              <svg
-                className="-mr-1 h-5 w-5 text-gray-400"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path />
-              </svg>
-            </button>
-          </div>
-        </div>
-
-        {/* Header */}
-        <header className="bg-white  shadow-2xl sticky top-0 z-20">
-          <div className="container mx-auto flex justify-between items-center p-2">
-            <div className="flex items-center space-x-4">
-              <img
-                className="w-28 ml-20 md:ml-2 md:w-20"
-                src="https://najmbarea.com/wp-content/uploads/2023/08/Najm-Barea-Logo-size-1.png"
-                alt="Najm Barea Logo hover:cursor-pointer"
-              />
-            </div>
-            <nav className="flex space-x-12 mr-20 text-xl mt-5 md:text-sm md:mr-5">
-              <Link to="/" className="text-gray-700 hover:text-yellow-600">
-                Home
-              </Link>
-              <Link to="/about" className="text-gray-700 hover:text-yellow-600">
-                About
-              </Link>
-              <Link
-                to="/services"
-                className="text-gray-700 hover:text-yellow-600"
-              >
-                Services
-              </Link>
-              <Link to="/blogs" className="text-gray-700 hover:text-yellow-600">
-                Blogs
-              </Link>
-              <Link to="/contact">
-                <button className="bg-yellow-600 text-white px-4 py-2 mb-3">
-                  Enquire Now
-                </button>
-              </Link>
-            </nav>
-          </div>
-        </header>
-
         {/* Hero Section */}
         <section
           className="relative bg-cover bg-center h-96"
@@ -246,7 +190,6 @@ const Home = () => {
       </div>
 
       <hr className="bg-yellow-600" />
-
     </>
   );
 };
